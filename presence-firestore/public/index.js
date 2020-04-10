@@ -43,7 +43,7 @@ function rtdb_presence() {
         // If we're not currently connected, don't do anything.
         if (snapshot.val() == false) {
             return;
-        };
+        }
 
         // If we are currently connected, then use the 'onDisconnect()' 
         // method to add a set which will only trigger once this 
